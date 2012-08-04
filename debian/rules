@@ -65,14 +65,14 @@ binary-arch: build install
 	dh_installdocs
 	dh_install
 	cp debian/lintian-override debian/cntlm/usr/share/lintian/overrides/cntlm
-	dh_installdebconf	
-	dh_installinit -n
-	dh_installman doc/cntlm.1
+#	dh_installdebconf	
+#	dh_installinit -n
+#	dh_installman doc/cntlm.1
 	dh_link
 	dh_strip
 	dh_compress
 	dh_fixperms -Xcntlm.conf
-	dh_installdeb
+#	dh_installdeb
 	dh_shlibdeps
 	dh_gencontrol
 	dh_md5sums

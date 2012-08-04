@@ -1,3 +1,13 @@
+cntlm (0.92.3-1maemo1) fremantle; urgency=low
+
+  * Packaged for Maemo
+  * Upgrade to source format 3.0 (quilt)
+  * Cherry-pick r306 from 0.93 to properly handle non-HTTP/1.1 keep-alive
+  * Added CLI icon, updated Section and Description
+  * Don't install as a service
+
+ -- Graham Inggs <graham@nerve.org.za>  Sat, 4 August 2012 19:45:00 +0200
+
 cntlm (0.92.3-1) unstable; urgency=low
 
   * New upstream release. Closes: #652725, #588920.

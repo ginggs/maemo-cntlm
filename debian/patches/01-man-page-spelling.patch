@@ -1,0 +1,20 @@
+--- cntlm-0.92.3.orig/doc/cntlm.1
++++ cntlm-0.92.3/doc/cntlm.1
+@@ -124,7 +124,7 @@ username in the password dialog: "domain
+ .B -c <filename>
+ Configuration file. Command-line options, if used, override its single options or are added at the top of the
+ list for multi options (tunnels, parent proxies, etc) with the exception of ACLs, which are completely
+-overriden. Use \fI/dev/null\fP to disable any config file.
++overridden. Use \fI/dev/null\fP to disable any config file.
+ 
+ .TP
+ .B -D IP/mask\ \ \ \ (Deny)
+@@ -191,7 +191,7 @@ password prompt is issued. Use this opti
+ .TP
+ .B -L [<saddr>:]<lport>:<rhost>:<rport>\ \ \ \ (Tunnel)
+ Tunnel definition. The syntax is the same as in OpenSSH's local forwarding (\fB-L\fP), with a new optional
+-prefix, \fIsaddr\fP - the source IP address to bind the \fIlport\fP to. \fBCntlm\fP will listen for incomming
++prefix, \fIsaddr\fP - the source IP address to bind the \fIlport\fP to. \fBCntlm\fP will listen for incoming
+ connections on the local port \fIlport\fP, forwarding every new connection through the parent proxy to the
+ \fIrhost\fP:\fIrport\fP (authenticating on the go). This option can be used multiple times for unlimited
+ number of tunnels, with or without the \fIsaddr\fP option. See \fB-g\fP for the details concerning local port

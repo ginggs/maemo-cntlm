@@ -1,0 +1,3 @@
+01-man-page-spelling.patch
+02-fix-non-http-keep-alive.patch
+03-maemo-cflags.patch
