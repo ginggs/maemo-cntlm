@@ -1,5 +1,5 @@
 Source: cntlm
-Section: user/net
+Section: user/network
 Priority: optional
 Maintainer: Graham Inggs <graham@nerve.org.za>
 XSBC-Original-Maintainer: David Watson <dwatson@debian.org>

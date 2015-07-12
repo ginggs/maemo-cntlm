@@ -1,3 +1,9 @@
+cntlm (0.92.3-1maemo2) UNRELEASED; urgency=medium
+
+  * Change to Section: user/network in debian/control
+
+ -- Graham Inggs <graham@nerve.org.za>  Sun, 12 Jul 2015 13:01:39 +0200
+
 cntlm (0.92.3-1maemo1) fremantle; urgency=low
 
   * Packaged for Maemo
